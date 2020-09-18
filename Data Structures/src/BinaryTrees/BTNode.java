@@ -1,4 +1,4 @@
-package binaryTree;
+package BinaryTrees;
 
 public class BTNode {
 	int data ;
