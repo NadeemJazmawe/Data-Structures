@@ -11,11 +11,13 @@ in this project you can find :
   * Quick Sort
   * Sadix Sort
   * Selection Sort
+
 * LinkedList
  * default LinkedList
  * Cycle LinkedList
  * Bidirectional LinkedList
  * Sorted LinkedList
+
 * BinaryTrees
  * Binary Tree
  * Binary Search Tree
