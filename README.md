@@ -3,7 +3,7 @@
 This project have Data Structures methods in java language.
 
 in this project you can find :
-* Sorting Functions 
+* Sorting Methods 
   * bubbleSort
   * Counting Sort
   * Insertion Sort
@@ -13,7 +13,7 @@ in this project you can find :
   * Selection Sort
 
 * LinkedList
-  * default LinkedList
+  * Basic LinkedList
   * Cycle LinkedList
   * Bidirectional LinkedList
   * Sorted LinkedList
