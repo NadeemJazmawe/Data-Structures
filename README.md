@@ -13,11 +13,11 @@ in this project you can find :
   * Selection Sort
 
 * LinkedList
- * default LinkedList
- * Cycle LinkedList
- * Bidirectional LinkedList
- * Sorted LinkedList
+  * default LinkedList
+  * Cycle LinkedList
+  * Bidirectional LinkedList
+  * Sorted LinkedList
 
 * BinaryTrees
- * Binary Tree
- * Binary Search Tree
+  * Binary Tree
+  * Binary Search Tree
