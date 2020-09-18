@@ -1,4 +1,4 @@
-package MyStack;
+package StackAndQueue;
 
 public class MyStack {
 
@@ -7,6 +7,11 @@ public class MyStack {
 	int top;
 	
 	public MyStack() {
+		stack = new int[max_size];
+		top = 0;
+		}
+	public MyStack(int size) {
+		max_size = size;
 		stack = new int[max_size];
 		top = 0;
 		}
@@ -53,31 +58,15 @@ public class MyStack {
 	}
 	
 	public String toString() {
-		String result= "";
-		for (int i = 0; i <top; i++) {
-			result= result + stack[i]+ ",";
+		if(this.isEmpty())
+			return "( )";
+		String result= "(";
+		for (int i = top-1 ; i >= 0 ; i--) {
+			result= result + stack[i]+ ", ";
 		}
-		return result;
+		return result.substring(0 , result.length()-2) + ")";
 	}
-	
-	
-	public static void main(String[] args) {
-		MyStack t= new MyStack();
-		System.out.println(t.isEmpty());
-		System.out.println(t.push(3));
-		System.out.println(t.push(6));
-		System.out.println(t.push(3));
-		System.out.println(t.push(3));
-		System.out.println(t.push(2));
-		System.out.println(t.pop());
-		System.out.println(t.push(4));
-		System.out.println(t.peek());
-		System.out.println(t.isEmpty());
-//		t.clear();
-		System.out.println(t.size());	
-		System.out.println(t.elementAt(1));
-		System.out.println(t.toString());
-		}
+
 
 }
 

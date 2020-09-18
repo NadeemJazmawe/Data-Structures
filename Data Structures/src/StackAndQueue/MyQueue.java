@@ -1,8 +1,8 @@
-package MyQueue;
+package StackAndQueue;
 
 public class MyQueue {
 	private int front, tail,size;
-	private final int INIT_size = 10;
+	private final int INIT_size = 5;
 	private int maxSize;
 	private int [] queue;
 	
@@ -55,6 +55,8 @@ public class MyQueue {
 	}
 	
 	public String toString() {
+		if(this.isEmpty())
+			return "( )";
 		String s= "(";
 		int help = front;
 		for (int i = 0; i < size; i++) {
@@ -65,26 +67,7 @@ public class MyQueue {
 		return s.substring(0 , s.length()-2) + ")";
 	}
 	
-	public static void main(String[] args) {
-		MyQueue t= new MyQueue();
-		System.out.println(t.isEmpty());
-		t.enQueue(1);
-		t.enQueue(2);
-		t.enQueue(3);
-		t.enQueue(4);
-		t.enQueue(5);
-		t.enQueue(6);
-		System.out.println(t.toString());
-		System.out.println(t.dequeue());
-		System.out.println(t.dequeue());
-		System.out.println(t.dequeue());
-		System.out.println(t.dequeue());
-		System.out.println(t.dequeue());
-		System.out.println(t.dequeue());
-		System.out.println(t.dequeue());
-		
 
-	}
 }
 
 
