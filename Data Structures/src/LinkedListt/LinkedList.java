@@ -1,6 +1,5 @@
 package LinkedListt;
 
-import LinkedListt.Node;
 
 public class LinkedList {
 	public Node head;
@@ -101,7 +100,9 @@ public class LinkedList {
 			if(help.next.data == m)
 				help.next =  null;
 		}
+
 	}
+	
 	public void remove2(int m) {
 		if(head == null)
 			return;
@@ -120,13 +121,6 @@ public class LinkedList {
 					help2 = help2.next;
 			}
 		}
-	}
-
-
-
-
-	public static void main(String[] args) {
-		
 	}
 
 }
