@@ -24,4 +24,4 @@ in this project you can find :
 
 * Graphs
   * Directed Graph
-  * Undirected Graph(it has some algorithms: find the dist and path between two Nodes , ans save load graph)
+  * Undirected Graph(include algorithms to find the min dist and path between two Nodes, check if it connected Graph, also save/load graph)
